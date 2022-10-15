@@ -1,12 +1,8 @@
-<h1 align='center'>Ticketing</h1>
-
-<p align="center">
- <a href="https://ibb.co/P5W95yB"><img src="https://i.ibb.co/9q4Vq0R/Splash-Screen-2022-06-11-00-56-56-98-73.jpg" alt="2022-06-11-00-56-56-98-REC" border="0" width="800px"></a>
-</p>
+<h1 align='center'>APP</h1>
 
 ## About The Project
 
-Mobile Application Ticketing | Front-End Repository
+Mobile Application  | Front-End Repository
 
 ## Built With
 
@@ -20,7 +16,7 @@ Mobile Application Ticketing | Front-End Repository
 
 ## Getting Started
 
-1. Download this Project or you can type `git clone https://github.com/foldadjo/ticketing_mobile.git`
+1. Install React Native, Android Studio, and Tailwind CSS
 2. Set Up your device
 3. Open app's directory in CMD or Terminal
 4. Type `npm install` or `yarn install`
@@ -76,11 +72,6 @@ LINK_CLOUDINARY: "https://res.cloudinary.com/fazztrack/image/upload/v1655102148/
 
 <br>
 
-## ✍️ Ticketing - Backend Link
-
-https://github.com/foldadjo/Ticketing_BE.git
-
-<br>
 
 ## ⛏️ Built Using
 
