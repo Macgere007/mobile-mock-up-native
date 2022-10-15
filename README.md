@@ -1,4 +1,4 @@
-<h1 align='center'>APP</h1>
+<h1 align='left'>APP</h1>
 
 ## About The Project
 
