@@ -10,7 +10,6 @@ Mobile Application  | Front-End Repository
 
 1. <a href="https://reactnative.dev/docs/environment-setup">React Native Set Up</a>
 2. Node_modules `npm install` or `yarn install`
-3. Backend API ticketing [`here`](https://github.com/foldadjo/Ticketing_BE.git)
 
 ## Getting Started
 
