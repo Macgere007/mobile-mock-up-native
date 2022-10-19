@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   // Button,
   ScrollView,
-  // TextInput,
+  TextInput,
   Image,
   // RefreshControl,
   // ActivityIndicator,
@@ -29,8 +29,17 @@ function Map(props) {
       </View> 
       <View style={[tw`h-282 bg-white`]}>
       <View style={[tw`flex flex-col`]}>
-
-        <View style={[tw`rounded-xl bg-gray-100 mt-5 ml-5 mb-1 w-81 h-49`]}>
+      <View>
+      <View style={[tw`flex flex-row rounded-xl bg-gray-100 mt-5 ml-5 w-81 h-11`]}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("Map")}><Image source={require('../../assets/search.png')}
+         style={[tw`w-7 h-7 ml-3 mt-2 mb-2`]}/></TouchableOpacity> 
+      <TextInput
+      placeholder="Looking for Charger Station"
+      style={[tw`text-gray-500 text-xl font-bold px-2 py-2 ml-1`]}
+      /> 
+      </View>
+      </View>
+        <View style={[tw`rounded-xl bg-gray-100 mt-1 ml-5 mb-2 w-81 h-49`]}>
           <Text style={[tw`text-gray-500 text-2xl font-bold bg-gray-100 mt-2 ml-5`]}>Serpong, Test</Text>
           <Text style={[tw`text-gray-500 text-sm font-normal bg-gray-100 ml-5`]}>Serpong, Test</Text>
         <View style={[tw`bg-gray-100 mb-2 ml-0.21`]}>
@@ -38,7 +47,7 @@ function Map(props) {
         </View>
         </View>
 
-        <View style={[tw`rounded-xl bg-gray-100 mt-5 ml-5 mb-1 w-81 h-49`]}>
+        <View style={[tw`rounded-xl bg-gray-100 mt-3.7 ml-5 mb-2 w-81 h-49`]}>
           <Text style={[tw`text-gray-500 text-2xl font-bold bg-gray-100 mt-2 ml-5`]}>Serpong, Test</Text>
           <Text style={[tw`text-gray-500 text-sm font-normal bg-gray-100 ml-5`]}>Serpong, Test</Text>
         <View style={[tw`bg-gray-100 mb-2 ml-0.21`]}>
@@ -46,7 +55,7 @@ function Map(props) {
         </View>
         </View>
 
-        <View style={[tw`rounded-xl bg-gray-100 mt-5 ml-5 mb-1 w-81 h-49`]}>
+        <View style={[tw`rounded-xl bg-gray-100 mt-3.7 ml-5 mb-2 w-81 h-49`]}>
           <Text style={[tw`text-gray-500 text-2xl font-bold bg-gray-100 mt-2 ml-5`]}>Serpong, Test</Text>
           <Text style={[tw`text-gray-500 text-sm font-normal bg-gray-100 ml-5`]}>Serpong, Test</Text>
         <View style={[tw`bg-gray-100 mb-2 ml-0.21`]}>
@@ -54,7 +63,7 @@ function Map(props) {
         </View>
         </View>
 
-        <View style={[tw`rounded-xl bg-gray-100 mt-5 ml-5 mb-1 w-81 h-49`]}>
+        <View style={[tw`rounded-xl bg-gray-100 mt-3.7 ml-5 mb-2 w-81 h-49`]}>
           <Text style={[tw`text-gray-500 text-2xl font-bold bg-gray-100 mt-2 ml-5`]}>Serpong, Test</Text>
           <Text style={[tw`text-gray-500 text-sm font-normal bg-gray-100 ml-5`]}>Serpong, Test</Text>
         <View style={[tw`bg-gray-100 mb-2 ml-0.21`]}>
@@ -62,7 +71,7 @@ function Map(props) {
         </View>
         </View>
 
-        <View style={[tw`rounded-xl bg-gray-100 mt-5 ml-5 mb-1 w-81 h-49`]}>
+        <View style={[tw`rounded-xl bg-gray-100 mt-3.7 ml-5 mb-2 w-81 h-49`]}>
           <Text style={[tw`text-gray-500 text-2xl font-bold bg-gray-100 mt-2 ml-5`]}>Serpong, Test</Text>
           <Text style={[tw`text-gray-500 text-sm font-normal bg-gray-100 ml-5`]}>Serpong, Test</Text>
         <View style={[tw`bg-gray-100 mb-2 ml-0.21`]}>
