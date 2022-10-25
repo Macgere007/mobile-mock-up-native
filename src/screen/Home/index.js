@@ -44,15 +44,15 @@ function Home(props) {
          <Text style={[tw`text-gray-500 text-lg font-normal ml-5`]}><Text style={[tw`text-gray-500 text-lg font-bold`]}>40.7</Text> KwH</Text>
         </View>
          <View style={[tw`border-l-2 border-gray-500 bg-gray-100 mb-2 ml-3`]}>
-         <TouchableOpacity onPress={() => props.navigation.navigate("BarcodeScanner")}><Icon style={[tw`ml-5`]} name='power' size={50} color={'#666666'} /></TouchableOpacity> 
+         <TouchableOpacity onPress={() => props.navigation.navigate("BarcodeScanner")}><Icon style={[tw`ml-5 mt-2`]} name='power' size={50} color={'#7fff94'} /></TouchableOpacity> 
          <Text style={[tw`text-gray-500 text-xl font-semibold mt-1 ml-4 mb-1`]}>Charge</Text>
         </View>
         </View>
         </View>
         
       <Text style={[tw`text-gray-500 text-xl font-bold mt-2 ml-7`]}>Energy Consumption this Year</Text>
-      <Text style={[tw`text-gray-500 text-base text-justify mt-2 mr-5 ml-7 mb-1`]}>Save your expenses by monitoring energy consumption every time you charge.</Text>
-     <TouchableOpacity style={[tw`rounded-xl bg-gray-100 h-91 w-83 mt-2 ml-3`]}></TouchableOpacity>
+      <Text style={[tw`text-gray-500 text-base text-justify mt-2 mr-5 ml-7`]}>Save your expenses by monitoring energy consumption every time you charge.</Text>
+     <TouchableOpacity style={[tw`rounded-xl bg-gray-100 h-93 w-83 ml-3`]}></TouchableOpacity>
     </View>
     </ScrollView>
     
